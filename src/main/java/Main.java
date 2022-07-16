@@ -9,9 +9,7 @@ public class Main {
     }
 
     public static int calculatingTheNumberOfLargeSizedBooks(int[] arr, int newBookSize) {
-       /* if(arr==null){
-            throw new RuntimeException("Dont");
-        }*/
+
         if(newBookSize<0){
             return -1;
         }
